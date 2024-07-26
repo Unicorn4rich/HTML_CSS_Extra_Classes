@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = prompt("enter student name");
+        var father_name = prompt("enter student father name");
+        var city = prompt("enter city name");
+        var area = prompt("enter area name");
+        var english = parseInt(prompt("enter english marks"));
+        var urdu = parseInt(prompt("enter urdu marks"));
+        var math = parseInt(prompt("enter math marks"));
+        var islamiyat = parseInt(prompt("enter islamiyat marks"));
+        var total = english + urdu + math + islamiyat;
+
+        var per = total / 300 *100;
+
+        /* ab in varibles ko print krwana hoga warna show nhi honge */
+
+        document.write(name);
+        document.write("<br>");
+
+        document.write(father_name);
+        document.write("<br>");
+
+        document.write(city)
+        document.write("<br>");
+
+        document.write(area);
+        document.write("<br>");
+
+        document.write( "total marks: " + total);
+        document.write("<br>");
+
+        document.write( "percentage: " + per + "%");
+        document.write("<br>");
+
+        /* ab students ke grade apply honge */
+
+        if(per >= "80")
+        {
+            document.write("A<sup>one</sup>");
+        }
+
+        else if(per >= "70")
+        {
+            document.write("A");
+        }
+
+        else if(per >= "60")
+        {
+            document.write("B");
+        }
+
+        else if(per >= "50")
+        {
+            document.write("C");
+        }
+
+        else if(per >= "40")
+        {
+            document.write("D")
+        }
+
+        else if(per <= "39")
+        {
+            document.write("fail");
+        }
+
+
+
+
+    </script>
+</body>
+</html>

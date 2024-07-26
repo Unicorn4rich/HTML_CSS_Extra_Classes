@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class24 js.css">
+</head>
+
+<body>
+    <form class="form">
+        <h1>Registration Form</h1><br><br>
+        <input type="email" id="email" placeholder="write your email"><br><br>
+        <input type="password" id="password" placeholder="write your password"><br><br>
+        <input type="text" id="name" placeholder="write your name"><br><br>
+        <input type="text" id="father" placeholder="write your father name"><br><br>
+        <input type="text" id="country" placeholder="write your country name"><br><br>
+        <button onclick="login()">Login</button>
+    </form>
+
+    <script>
+        function login() {
+            var email = document.getElementById("email").value;
+            var pass = document.getElementById("password").value;
+            var name = document.getElementById("name").value;
+            var father = document.getElementById("father").value;
+            var country = document.getElementById("country").value;
+            if (email == "sk9952908@gmail.com" && pass == "123" && name == "ali" && father == "ahsan" && country == "pakistan") {
+                window.location.href = "class9.html";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.div1,
+.div2,
+.div3{
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    float: left;
+    margin: 1%;
+    margin-left: 2%;
+}
+.div2{
+    background-color: blue;
+}
+.div3{
+    background-color: green;
+}
+
+/*---for tablet----*/
+@media screen and (max-width: 768px) {
+    .div1,
+    .div2,
+    .div3 {
+        background-color:#000;
+    }
+}
+
+/*----for large mobile----*/
+@media screen and (max-width: 425px) {
+    .div1{
+        width: 100%;
+        background-color: red;
+    }
+    .div2{
+        width: 45%;
+        background-color: blue;
+    }
+    .div3{
+        width: 45%;
+        background-color: green;
+    }
+}
+
+/*----for normal mobile----*/
+ @media screen and (max-width: 320px) {
+        .div1, .div2, .div3 {
+            width: 100%;
+            float: none;
+            display: block; 
+            margin: 1% auto; 
+    }
+   
+}
+
+/*----is se red waly div ko neeche or green waly ko opar karty hain----*/
+/* For Normal Mobile */
+
+
+

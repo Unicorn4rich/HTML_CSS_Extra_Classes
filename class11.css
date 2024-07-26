@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main-div{
+    width: 90%;
+    height: 200px;
+    background-color: rgb(132, 230, 230);
+    position: relative;
+    left: 5%;
+    margin-top: 10%;
+}
+.div2{
+    width: 15%;
+    height: 100px;
+    background-color: navy;
+    border-radius: 50%;
+    position: relative;
+    top: -110px;
+    left: 1%;
+
+}
+.p{
+   position: relative;
+   left: 78%;
+   top: -1px;
+   left: 20%;
+
+}
+.hr{
+    width: 30%;
+    position: relative;
+    top: -150px;
+}
+.button{
+    position: relative;
+    top: -140px;
+    left: 75%;
+}

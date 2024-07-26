@@ -1,0 +1,29 @@
+*{               /* universal selecter iski propertys css mein jitne bhi elemnts hoty hain un sab par apply hoti hai */
+    margin: 0%;  /* ye dono property apne css ke sabhi elemnts par apply kar ke unke bahar ya andar extra space any se rok sakty hain*/
+    padding: 0%;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 243, 7);
+}
+
+.ul{
+    list-style-type: none;   /* is property se ham ul list ke bullet points hata sakty hain */
+}
+
+.li{
+    float: left;   /*is property se ham list ke items ko left side ki tarf line se rakh sakty hain aik row ki tarhn */
+    margin: 1%;   /* is property se ham items ke around gap dey sakty hain*/
+}
+
+a{
+    text-decoration: none; /*is property se ham text ki underline hata sakty jab usme koi link laga hua huwa hota hai*/
+    color: black;
+    font-size: large; /*is property se ham font ka size bara kar sakty hain*/
+}
+
+a:hover{  /*is method se ham jab bhi curser element ke opar ley jaenge to uska color change ho jaega*/
+    color: blue; 
+}

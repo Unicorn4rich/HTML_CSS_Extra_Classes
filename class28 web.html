@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risponsive website</title>
+    <link rel="stylesheet" href="class28 web.css">
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="image/doller logo2.png." alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#srvices">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn-s btn-sm">Serch</button>
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav>
+    <!-- navbar End -->
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The Future of Online Deals Here</p>
+                <p class="text-small text-small2">Empowering Freelancers and Clients: Discover the Future of Online Deals on Our
+                    Platform. Our platform offers secure, transparent, and innovative ways to make freelance deals that
+                    benefit both parties. we are here for you</p>
+
+                <div class="buttons">
+                    <button class="btn">Add Card</button>
+                    <button class="btn"> Bank</button>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="image/bit logo.jpg" alt="laptop image">
+            </div>
+        </div>
+    </section>
+    <!-- section 1 End -->
+
+    <section class="section" id="Services">
+        <div class="paras">
+            <p class="sectionTag text-big">Freelancers Work</p>
+            <p class="sectionSubtag text-small">Freelancers, from various professions, do online jobs, but it's their
+                hard work and focus on quality that make them stand out. Every project, assignment, or task is an
+                opportunity for them to showcase their skills and dedication.
+
+                Freelancers put in a lot of effort throughout the day. Their strength, determination, and commitment
+                illuminate their work.
+
+                They bring innovation to their work and are always ready to achieve excellence in every project. Their
+                goal is to provide high-quality output to satisfy their clients.
+
+                Freelancers work with passion and dedication, often going the extra mile to make their clients happy.
+                Their hard work is a valuable asset in their career</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?develper,work, job, office" alt="laptop image"
+                class="imgFluid">
+        </div>
+    </section>
+
+
+    <section class="section section-Left" id="About">
+        <div class="paras">
+            <p class="sectionTag text-big">Online Payment Issues</p>
+            <p class="sectionSubtag text-small">Online transactions can sometimes be tricky, and trust issues can lead
+                to canceled deals. It's essential to build a secure environment where both clients and freelancers feel
+                confident.
+
+                One of the common challenges in the online freelance world is that sometimes transactions don't go as
+                planned.
+
+                In the freelance industry, canceled deals due to a lack of trust can be frustrating. Both clients and
+                freelancers should aim to create a trustworthy working relationship to reduce such occurrences.
+
+                These lines touch upon the challenges of online transactions and the importance of trust in ensuring
+                successful deals in the freelance world.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?develper,money,dollers" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+
+
+    <section class="sectionTag section">
+        <div class="paras">
+            <p class="text-big">About Our Policy</p>
+            <p class="sectionSubtag text-small">At our company, we understand the challenges that both freelancers and clients face when it comes to payments. We simplified the process for a smoother experience.
+
+                We taken the hassle out of payments to ensure that freelancers and clients can focus on their work. 
+                
+                Clients and freelancers often worry about payment-related issues, but our company has introduced reliable payment methods to provide peace of mind.
+                
+                Freelancers and clients can trust our platform to handle payments with care and efficiency. 
+                
+                We identified the common hurdles in payment processes and addressed them with simple, effective solutions. Our goal is to make payments stress-free for freelancers and clients.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?online,solving problems, create ideas,employes company,"
+                alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name"  placeholder="write your name">
+            <input class="form-input" type="text" name="phone" id="phone"  placeholder="write your phone number">
+            <input class="form-input" type="email" name="email" id="email" placeholder="write your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="We Can Solve your problems"></textarea>
+            <button class="btn-s btn-sm btn-dark" onclick="login()">Submit</button>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">Copyright &copy; 2027 ww.iEducate.com - All rights reserved // Created by=> SHOAIB</p>
+    </footer>
+
+    <script src="class28 .js"></script>
+
+    <script>
+        
+function login() {
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+    var text = document.getElementById("text").value;
+
+    if(name == "shoaib" && phone == "03142174183" && email == "sk9952908@gmail.com" && text == "ok" ){
+        document.write("<h1>  Welcome SHOAIB Sir  </h1>")
+    }
+}
+    </script>
+</body>
+
+</html>

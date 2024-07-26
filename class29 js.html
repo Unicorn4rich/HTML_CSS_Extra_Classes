@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class Results</title>
+</head>
+<body>
+    <input type="text" id="name" placeholder="write your name"><br><br>
+    <input type="text" id="father_name" placeholder="write your father name"><br><br>
+    <input type="text" id="city" placeholder="write your city name"><br><br>
+    <input type="text" id="class" placeholder="write your class"><br><br>
+    <input type="number" id="english"  placeholder="write your english marks"><br><br>
+    <input type="number" id="math" placeholder="write your math marks"><br><br>
+    <input type="number" id="urdu"  placeholder="write your urdu marks"><br><br>
+    <input type="number" id="islamiyat"  placeholder="write your islamiyat marks"><br><br>
+    <button onclick="submit()">Submit</button><br><br>
+
+    <!-- yahn se java script start -->
+    <script>
+       function submit(){
+        var name = document.getElementById("name").value;
+        var father_name = document.getElementById("father_name").value;
+        var city = document.getElementById("city").value;
+        var class = document.getElementById("class").value;
+        var english = parseInt(document.getElementById("english")).value;
+        var math = parseInt(document.getElementById("math")).value;
+        var urdu = parseInt(document.getElementById("urdu")).value;
+        var islamiyat = parseInt(document.getElementById("islamiyat")).value;
+        var total = english + math + urdu + islamiyat;
+        var percentage = totat / 300 *100;
+        
+        document.write(name);
+        document.write(father_name);
+        document.write(city);
+        document.write(class);
+        document.write(english);
+        document.write(math);
+        document.write(urdu);
+        document.write(islamiyat);
+        if(percentage >= "80"){
+            document.write{"A+"}
+        }
+        else if(percentage >= "70")
+                 
+        
+       }
+    </script>
+</body>
+</html>

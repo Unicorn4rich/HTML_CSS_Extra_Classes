@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ********************px ke douts apni jaga rehte hain*****************  */
+/* .px{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+} */
+
+
+ /* **************percentage screen ke size ke sath move hota hai*************** */
+/* .percentage{
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+} */
+
+/* **Vewport height & Vewport width ye 2no screen ke size ke hisab se khud ko manage karte hain + font-size ** */
+/* 
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.child{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+} */
+
+/* 
+h1{
+    /* font-size: 7vw; */
+    /* font-size: 7vh;  */
+/* } */
+
+
+ /* *************************************vmax********************************
+ vmax ye tab tak apne size brhaye ga jab tak iski width iski hight se ziyada bari hogi warna ye hight pe
+dipended ho jaega phir ham iski heght choti bari karengi to iska screen size increase hoga  */
+/* 
+h1{
+    font-size: 7vmax;
+} */
+
+
+
+/* *************************************vmin********************************
+ ye vmax ka ulta hai iski width iski heght se choti hogi ye tab kaam karega */
+/* 
+h1{
+    font-size: 7vmin;
+} */
+
+
+
+ /* *************************************em******************************** 
+parent div mein hm jitne px ka font size se karenge 1em ki qeemat utni hi hogi
+agr ham 30px denge to 1em 30px ki value dega agr ham parent div mein 10px set karenge to 
+1em ka size bhi 10px ke brbar hoga */
+
+/* .parent{
+    width: 50%;
+    height: 200px;
+    background-color: aqua;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 1em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+h5{
+    font-size: 1.2em;
+} */
+
+
+/* *************************************rem = 16px********************************  */
+
+/* h1{
+    font-size: 2rem;
+} */

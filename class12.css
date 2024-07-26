@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.div{
+    width: 30%;
+    height: 300px;
+    background-color: aqua;
+    transition: 1.9s;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.div:hover{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(61, 199, 0.3);
+    text-align: center;
+    color: white;
+}

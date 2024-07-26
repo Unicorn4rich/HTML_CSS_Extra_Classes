@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+       var value1 = prompt("Enter value1");
+       var opt = prompt("Enter your operater");
+       var value2 = prompt("Enter value2");
+       if(opt == "+"){
+        document.write( "Answer: " + parseInt(value1) + parseInt(value2));
+       }
+
+       else if(opt == "-"){
+        document.write(parseInt(value1) - parseInt(value2));
+       }
+
+       else if(opt == "*"){
+        document.write(parseInt(value1) * parseInt(value2));
+       }
+
+       else if(opt == "/"){
+       document.write(parseInt(value1) / parseInt(value2));
+    }
+
+    else{
+        document.write("Enter correct operater");
+    }
+    </script>
+</body>
+</html>
