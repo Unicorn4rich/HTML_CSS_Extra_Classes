@@ -10,8 +10,8 @@
 .size{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    position: relative;
-    top: 30%;
+    position: relative;  /*jab tak ye property nahi lgaenge tab tak ye tag kahi bhi move nahi krwa sakty*/
+    top: 30%;           /*Opar se 30% jitna gap dega*/
 }
 .div1{
     width: 30%;

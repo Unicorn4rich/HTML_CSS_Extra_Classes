@@ -4,16 +4,16 @@
 }
 .h1{
     background-color: aqua;
-    border: 1px solid navy;
+    border: 1px solid navy;  
 }
 .form{
     width: 30%;
     height: 450px;
     background-color: skyblue;
-    text-align: center;
+    text-align: center;   /*Is se ham div ke center mein kar sakty hain sari propertys*/
     position: relative;
     left: 30%;
-    margin-top: 7%;
+    margin-top: 7%;  /*opar se 7% jitna apne div ko neechy kar rhy hain*/
     color: black;
     border: 2px solid black;
 }
@@ -36,7 +36,7 @@
     
 }
 a{
-    text-decoration: none;
+    text-decoration: none; /*anchor tag pe link lgane ke bad uski default style khatam kar rhy hain*/
     color: black;
 }
 a:hover{
