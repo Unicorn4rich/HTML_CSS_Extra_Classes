@@ -1,21 +1,24 @@
-* {
+*{
     margin: 0%;
     padding: 0%;
 }
 
-div {
+div{
     float: left;
     margin: 1%;
     display: flex;
     margin: 5px 5px 5px 5px;
     position: relative;
     left: 4%;
-    /*border: 2px solid black;*/
 }
+
 img{
+    /* width: 300px;
+    height: 180px; */
     border-radius: 2%;
-    transition: 1.2s ease-in-out;
+    transition: 1.2s ease-in-out;   /*slow trasition ke liye use karte hain zoom and out*/
 }
+
 img:hover{
-    scale: 1.2;
+    scale: 1.2;  /*ye flexbility deta hai imges ko jitna zoom and out karna chahen kar sakty hain*/
 }
